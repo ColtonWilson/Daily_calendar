@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  line-height: 1;
 }
 
 textarea {
@@ -12,46 +13,94 @@ textarea {
   padding: 10px;
 }
 
+.jumbotron {
+  text-align: center;
+  background-color: lightblue;
+  color: #fff;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.gray-button{
+  pointer-events: none;
+  background-color: #05445E;
+  padding: 5px 12px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -5px;
+}
+
+.green-button{
+  pointer-events: none;
+  background-color: #75E6DA;
+  padding: 5px 12px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -5px;
+
+}
+
+.blue-button{
+  pointer-events: none;
+  background-color: #189AB4;
+  padding: 5px 12px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -5px;
+
+}
+
 .description {
   white-space: pre-wrap;
 }
 
 .time-block {
+  text-align: center;
   border-radius: 15px;
 }
 
 .row {
+  white-space: pre-wrap;
   border-top: 1px solid white;
+  ;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #05445E;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #75E6DA;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #189AB4;
   color: white;
+}
+
+.btn{
+  color:#D4F1F4;
 }
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #D4F1F4;
   color: white;
 }
+
 
 .saveBtn i:hover {
   font-size: 20px;
